@@ -1,0 +1,14 @@
+### Cadastrar uma folha
+POST https://localhost:5001/api/folha/cadastrar
+Content-Type: application/json
+
+{
+    "funcinarioId" : "1",
+    "valorhora" : 10,
+    "quantidadedehoras" : 100
+}
+
+### Listar as folhas
+GET https://localhost:5001/api/folha/listar
+### Buscar uma folha pelo {cpf}/{mes}/{ano}
+GET https://localhost:5001/api/funcionario/buscar/12312312312/10/2022
